@@ -1,0 +1,244 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+img {
+    vertical-align: middle;
+}
+
+body {
+    font-family: 'Roboto', 'Noto Sans TC', sans-serif;
+    line-height: 1.5;
+}
+
+.banner {
+
+    height: 958px;
+    background-image: url(../images/banner.png);
+    background-position: center center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_content span {
+    display: block;
+    color: white;
+    font-size: 24px;
+    line-height: 42px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.banner_content h1 {
+    display: block;
+    color: white;
+    font-size: 80px;
+    line-height: 108px;
+    font-weight: 900;
+    font-style: italic;
+    margin-bottom: 32px;
+}
+
+.banner_content p {
+    display: block;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+
+.banner_content ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 滑鼠移上圖片略為變大 */
+.imghover01:hover img {
+    transform: scale(1.1);
+}
+
+.fontblack {
+    color: black;
+}
+
+.fontwhite {
+    color: white;
+}
+
+.title {
+    padding-top: 56px;
+    font-size: 64px;
+    line-height: 84px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+/* about */
+.about {
+    text-align: center;
+}
+
+.about img {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.about h3 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 4px;
+}
+
+.about span {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.about p {
+    font-size: 24px;
+    font-weight: 700;
+    font-style: italic;
+    margin-top: 8px;
+}
+
+.line {
+    width: 384px;
+    border-top: 1px solid #000;
+    margin-top: 24px;
+}
+
+.about ul {
+    margin-top: 28px;
+    margin-bottom: 56px;
+}
+
+.about ul li {
+    font-size: 24px;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 28px;
+}
+
+.about ul li::before {
+    content: "";
+    display: inline-block;
+    background: #891818;
+    margin-right: 16px;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+}
+
+/* mybrand */
+.mybrand {
+    text-align: center;
+    background-color: #000;
+}
+
+.mybrand img {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.mybrand span {
+    color: white;
+    font-size: 24px;
+    line-height: 42px;
+    font-weight: 500;
+    font-style: italic;
+    margin-top: 12px;
+}
+
+.mybrand p {
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    margin-top: 32px;
+    margin-bottom: 28px;
+}
+
+.mybrand ul{
+    padding-bottom: 120px;
+}
+
+.mybrand ul li img{
+    margin: 20px;
+}
+
+.works{
+    text-align: center;
+    padding-bottom: 96px;
+}
+
+.works p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 16px;
+    margin-bottom: 56px;
+}
+
+.works ul
+{
+    margin: 0 auto;
+    display:flex;
+    justify-content: center;
+    /* margin-top:48px; */
+    /* background: #123465; */
+}
+
+.works ul li{
+    margin:12px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.works ul li span{
+    font-size: 24px;
+    line-height: 28px;
+    padding-top:16px;
+    padding-bottom: 48px;
+}
+
+/* contact */
+.contact {
+    text-align: center;
+    background-color: #000;
+}
+
+
+.contact ul{
+    color:white;
+    padding-bottom: 48px;
+}
+
+.contact li{
+    padding:8px;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.contact a{
+    
+    color:white;
+    text-decoration: none;
+}
+
+.contact a:hover{
+    color:gray;
+    text-decoration: underline;
+}
