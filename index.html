@@ -15,8 +15,8 @@
     <!-- 問題:這邊banner是寫固定高度沒錯嗎? -->
     <div class="banner">
         <div class="banner_content">
-            <span>Here’s</span>
-            <h1>JOANNE</h1>
+            
+            <h1><span>Here’s</span>JOANNE</h1>
             <p>Founder of “XXXD Official’’<br> & Graphic Designer</p>
             <ul>
                 <li><a href="#" target="_blank" class="imghover01"><img src="images/behance.svg" alt="behance"></a></li>
@@ -29,6 +29,7 @@
     <div class="about">
         <h2 class="title fontblack">About</h2>
         <img src="images/photo.png" alt="photo">
+        <!-- 助教：這裡也可以使用 ul > li 設計～ -->
         <h3>Joanne Chen</h3>
         <span>1997/10/10</span>
         <p>National Hex School Normal University<br>Department of Visual Design</p>
@@ -52,44 +53,48 @@
         <p>2020 年創立的個人服飾品牌<br>
             引領叛逆少年開啟與社會對話的窗口<br>
             主打概念潮流T-Shirt</p>
+            <!-- 助教：「品牌區塊」的三張圖片可使用一個 ul > li 結構設計，並使用 flex-wrap: wrap; 來換行。 -->
         <ul>
             <li><img src="images/brand_img1.png" alt="my brand 圖片1"></li>
-            <li><img src="images/brand_img2.png" alt="my brand 圖片2">
-                <img src="images/brand_img3.png" alt="my brand 圖片3"></li>
+            <li><img src="images/brand_img2.png" alt="my brand 圖片2"></li>
+                <li><img src="images/brand_img3.png" alt="my brand 圖片3"></li>
         </ul>
     </div>
     <div class="works">
         <h2 class="title fontblack">Other Works</h2>
         <p>2016-2020 年累積的作品<br>
             海報/廣告/攝影/LOGO/3D</p>
+            <!-- 助教：works 區塊的作品標題可改用 p 標籤或標題標籤設計，因 span 標籤為行內元素且本身沒有特殊意義。 -->
+            
         <ul>
             <li><img src="images/work_img1.png" alt="海報設計/2017">
-                <span>海報設計/2017</span></li>
+                <p>海報設計/2017</p></li>
             <li><img src="images/work_img2.png" alt="海報設計/2017">
-                <span>海報設計/2017</span></li>
+                <p>海報設計/2017</p></li>
             <li><img src="images/work_img3.png" alt="海報設計/2017">
-                <span>海報設計/2017</span></li>
+                <p>海報設計/2017</p></li>
         </ul>
         <ul>
             <li><img src="images/work_img4.png" alt="概念攝影/2018">
-                <span>概念攝影/2018</span></li>
+                <p>概念攝影/2018</p></li>
             <li><img src="images/work_img5.png" alt="概念攝影/2018">
-                <span>概念攝影/2018</span></li>
+                <p>概念攝影/2018</p></li>
         </ul>
         <ul>
             <li><img src="images/work_img6.png" alt="sasa 酒標設計/2019">
-                <span>sasa 酒標設計/2019</span></li>
+                <p>sasa 酒標設計/2019</p></li>
             <li><img src="images/work_img7.png" alt="攝影創作/2018">
-                <span>攝影創作/2018</span></li>
+                <p>攝影創作/2018</p></li>
             <li><img src="images/work_img8.png" alt="官網設計/2020">
-                <span>官網設計/2020</span></li>
+                <p>官網設計/2020</p></li>
         </ul>
     </div>
     <div class="contact">
         <h2 class="title fontwhite">Contact</h2>
         <ul>
-            <li>Mail：</span><a href="mailto:xxxd@hexschool.com">xxxd@hexschool.com</a></li>
-            <li>Phone Number：</span><a href="tel:0910123456">0910123456</a></li>
+            <!-- 助教：這兩行的 </span> 沒有作用，可移除。 -->
+            <li>Mail：<a href="mailto:xxxd@hexschool.com">xxxd@hexschool.com</a></li>
+            <li>Phone Number：<a href="tel:0910123456">0910123456</a></li>
         </ul>
     </div>
 </body>

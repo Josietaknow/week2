@@ -171,6 +171,9 @@ body {
 
 .mybrand ul{
     padding-bottom: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .mybrand ul li img{
@@ -206,7 +209,10 @@ body {
     align-items: center;
 }
 
-.works ul li span{
+/* 助教：選擇器的指定不用寫太長，指定愈多層程式負載會愈大，
+像 .works ul li span 可以簡化成 .works span 就好，
+因為 .works 內沒有其他 span 了。 */
+.works p{
     font-size: 24px;
     line-height: 28px;
     padding-top:16px;
